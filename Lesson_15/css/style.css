@@ -1,0 +1,33 @@
+.box {
+  position: relative;
+  margin-top: 30px;
+  width: 250px;
+  height: 200px;
+  z-index: 0;
+  line-height: 200px;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  background: #ffffff url(../img/2.jpg) center center no-repeat;
+}
+.box::before {
+  background-color: rgba(0, 0, 0, 0);
+}
+.box:hover::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.text {
+  visibility: hidden;
+}
+.box:hover .text {
+  visibility: visible;
+}
