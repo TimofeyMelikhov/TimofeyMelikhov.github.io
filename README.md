@@ -14,3 +14,5 @@
 [Урок 15](https://timofeymelikhov.github.io/Lesson_15/) - Псевдоклассы и псевдоэлементы
 
 [Урок 16](https://timofeymelikhov.github.io/Lesson_16/) - Слайдеры
+
+[Практический урок](https://timofeymelikhov.github.io/Practice_1/) - Практика
