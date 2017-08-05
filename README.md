@@ -20,3 +20,5 @@
 [Практический урок2](https://timofeymelikhov.github.io/Practice_2/) - Практика
 
 [Урок 17](https://timofeymelikhov.github.io/Lesson_17/) - Модальные окна
+
+[Практический урок3](https://timofeymelikhov.github.io/Practice_3/) - Практика
