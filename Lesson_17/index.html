@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/favicon.ico">
+    <title>Всплывающие окна</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   
+ <div class="container">
+ <a href="#my-modal" data-toggle="modal">Link</a>
+    <button class="btn btn-primary" data-toggle="modal" data-target="#my-modal">Удалить файл</button>
+  </div>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="my-modal">
+<!-- Само(белое) окно -->
+  <div class="modal-dialog">
+  <!-- Содержимое модального окна -->
+    <div class="modal-content">
+    <!-- Шапка модального окна -->
+      <div class="modal-header">
+      <!-- Кнопка закрыть -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <!-- Заголовок -->
+        <h4 class="modal-title">Удаление</h4>
+      </div>
+      <!-- Тело модального окна -->
+      <div class="modal-body">
+        <p>Вы действительно хотите удалить файл?</p>
+      </div>
+      <!-- Подвал модального окна -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Нет</button>
+        <button type="button" class="btn btn-primary">Да</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
