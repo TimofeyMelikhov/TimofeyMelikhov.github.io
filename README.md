@@ -16,3 +16,5 @@
 [Урок 16](https://timofeymelikhov.github.io/Lesson_16/) - Слайдеры
 
 [Практический урок](https://timofeymelikhov.github.io/Practice_1/) - Практика
+
+[Практический урок2](https://timofeymelikhov.github.io/Practice_2/) - Практика
