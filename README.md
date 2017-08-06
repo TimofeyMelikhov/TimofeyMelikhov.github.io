@@ -22,3 +22,5 @@
 [Урок 17](https://timofeymelikhov.github.io/Lesson_17/) - Модальные окна
 
 [Практический урок3](https://timofeymelikhov.github.io/Practice_3/) - Практика
+
+[Урок 18](https://timofeymelikhov.github.io/Lesson_18/) - Табы и аккордеон
