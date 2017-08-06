@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background: url(../img/bg.jpg) center center;
+  background-size: cover;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+::-moz-placeholder {
+  color: #fff;
+}
+/* Firefox 19+ */
+:-moz-placeholder {
+  color: #fff;
+}
+/* Firefox 18- */
+:-ms-input-placeholder {
+  color: #fff;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus {
+  background-color: #03a3d7;
+  border: 1px solid #03a3d7;
+  color: #333;
+}
+.pages {
+  padding-left: 25rem;
+  margin-left: 2rem;
+  border: none;
+}
+.page1 {
+  font-size: 18px;
+}
+.page2 {
+  background-color: #fff;
+  color: #000;
+  font-size: 18px;
+}
+.active-page {
+  padding-right: 1rem;
+}
+.tadi {
+  margin-top: 3rem;
+}
+.main-form {
+  margin: 0 auto;
+  width: 630px;
+  background-color: #03a3d7;
+  padding: 2.5rem;
+  border-radius: 5px;
+  border: 1px solid #047ca0;
+}
+.main-form .form-input {
+  display: block;
+  margin: 2rem auto;
+  background: url(../img/Shape.png);
+  width: 80%;
+  border: none;
+  color: #fff;
+  padding: 1rem;
+  font-size: 30px;
+}
+.main-form .form-input:focus {
+  outline: none;
+}
+.form-in {
+  background-color: #000;
+  border-radius: 5px;
+  padding-top: 3rem;
+  border: 1px solid #7dd7f4;
+}
+.form-in p {
+  display: inline-block;
+}
+.forgot {
+  display: block;
+  margin-left: 7rem;
+  color: #c51f03;
+  padding-bottom: 4rem;
+  text-decoration: none;
+}
+.chekk {
+  display: inline-block;
+}
+.remember {
+  margin-left: 7rem;
+  padding-bottom: 4rem;
+}
+.remember p {
+  color: #6f6d6d;
+}
+.Sign-in {
+  position: absolute;
+  left: 65%;
+  bottom: 20.5rem;
+  background-color: #ae1702;
+  border: none;
+  outline: none;
+}
+.Sign-in::after {
+  content: '';
+  position: absolute;
+  left: 11rem;
+  bottom: -14px;
+  border: 7px solid transparent;
+  border-top: 7px solid #7f0501;
+  border-left: 7px solid #7f0501;
+  z-index: -1;
+}
+.Sign-in p {
+  height: 5rem;
+  line-height: 4rem;
+  padding: 1rem 2rem;
+  font-size: 24px;
+  color: #fff;
+}
