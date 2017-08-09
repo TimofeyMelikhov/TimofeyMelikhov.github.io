@@ -26,3 +26,5 @@
 [Урок 18](https://timofeymelikhov.github.io/Lesson_18/) - Табы и аккордеон
 
 [Практический урок4](https://timofeymelikhov.github.io/Practice_4/) - Практика
+
+[Урок 19](https://timofeymelikhov.github.io/Lesson_19/) - Анимация на CSS3
