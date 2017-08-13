@@ -28,3 +28,7 @@
 [Практический урок4](https://timofeymelikhov.github.io/Practice_4/) - Практика
 
 [Урок 19](https://timofeymelikhov.github.io/Lesson_19/) - Анимация на CSS3
+
+
+
+[Практический урок5-6](https://timofeymelikhov.github.io/Practice_5-6/) - Практика
